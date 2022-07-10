@@ -1,0 +1,281 @@
+/*
+Lato:wght@300;400;700;900
+Montserrat:wght@500;600;700;800;900; 
+
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+#2c3e50
+#18bc9c
+#212529 
+
+*/
+/* 
+#2c3e50
+#18bc9c
+#212529 
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: 0px ;
+  
+}
+
+/* NAVBar */
+nav {
+  background-color: #2C3E4F;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  text-transform: uppercase;
+}
+nav,
+nav>h2 {
+color: #fff;
+font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+}
+.nav-section {
+  margin: 30px 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.nav-list {
+  position: absolute;
+  right: 100px;
+}
+.nav-list li {
+  display: inline-flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 10px;
+}
+nav a:link {
+  text-decoration: none; 
+  color: #fff;
+  font-size: 14px;
+}
+
+.header-container {
+  background-color: #18bc9c;
+  width: 100%;
+  height: 500px;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-container img {
+    width:230px;
+    margin-top: 30px;
+    
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size:60px;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+.WebGraphicUserText {
+    color:#fff;
+    font-size: 20px;
+    margin-top: 25px;
+   
+}
+.fa-star{
+  color: #fff;
+  font-size: 1.5em;
+}
+.fa-grip-lines{
+  color: #fff;
+}
+
+
+
+.portfolioContainer .fa-star, .fa-grip-lines {
+  color: black;
+}
+
+
+.portfolioContainer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin: 3rem 0;
+}
+.portfolioContainer > h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  }
+
+.portfolio {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+
+}
+
+.imgContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 1rem 15%;
+}
+
+.img {
+width: 300px;
+  height: auto;
+}
+
+
+
+
+
+
+
+.aboutSection{
+  background-color:#18bc9c;
+	text-align: center;
+  padding: 50px 25% ;
+  color: #fff;
+}
+
+.aboutSection > h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+
+}
+
+
+p, .btnDownload{
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  
+  
+}
+
+
+
+.twoColumns{
+  display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+  align-items: flex-start;
+  gap:30px;
+
+}
+
+
+.btnDownload{
+  background-color:#18bc9c;
+  border: 2px solid white ;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 24px;
+  text-align: center;
+  }
+
+.download{
+  width: 12px;
+}
+
+.starIcon{
+  width: 20px;
+  
+}
+
+
+footer {
+  background-color: #2C3E4F;
+  color: #fff;
+  width: 100%;
+  height: 300px;
+	display: flex;
+
+}
+.footerThreeSections{
+  background-color: gray;
+  width: 100%;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.footerThreeSections > h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  
+
+}
+
+.partOfFooter{
+  background-color: green;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+  
+  gap: 20px;
+}
+
+.location{
+  background-color: palevioletred;
+  text-align: center;
+
+}
+.aroundWeb{
+  background-color: palevioletred;
+  text-align: center;
+
+}
+
+.aboutFreelancer{
+  background-color: palevioletred;
+  text-align: center;
+
+
+}
+
+
+.copyright{
+  width: 100%;
+  background-color: blueviolet;
+  text-align: center;
+  }
+
+/* fa-facebook-f,
+fa-google-plus-g,
+fa-twitter,
+fa-linkedin-in, 
+fa-dribbble*/
+
+fa-facebook-f{
+  border: #000 solid 2px;
+  background-color: aqua;
+}
+
