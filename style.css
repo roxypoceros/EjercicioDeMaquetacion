@@ -17,11 +17,11 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
-*{
+* {
   padding: 0px;
   margin: 0px;
-  box-sizing: 0px ;
-  
+  box-sizing: 0px;
+
 }
 
 /* NAVBar */
@@ -32,31 +32,36 @@ nav {
   position: absolute;
   text-transform: uppercase;
 }
+
 nav,
 nav>h2 {
-color: #fff;
-font-family: 'Montserrat', sans-serif;
-font-weight: 900;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
 }
+
 .nav-section {
   margin: 30px 100px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  
+
 }
+
 .nav-list {
   position: absolute;
   right: 100px;
 }
+
 .nav-list li {
   display: inline-flex;
   flex-direction: row;
   list-style: none;
   padding: 10px;
 }
+
 nav a:link {
-  text-decoration: none; 
+  text-decoration: none;
   color: #fff;
   font-size: 14px;
 }
@@ -73,35 +78,40 @@ nav a:link {
 }
 
 .header-container img {
-    width:230px;
-    margin-top: 30px;
-    
+  width: 230px;
+  margin-top: 30px;
+
 }
+
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size:60px;
+  font-size: 60px;
   font-weight: 900;
   color: #fff;
   text-transform: uppercase;
   margin-top: 40px;
 }
+
 .WebGraphicUserText {
-    color:#fff;
-    font-size: 20px;
-    margin-top: 25px;
-   
+  color: #fff;
+  font-size: 20px;
+  margin-top: 25px;
+
 }
-.fa-star{
+
+.fa-star {
   color: #fff;
   font-size: 1.5em;
 }
-.fa-grip-lines{
+
+.fa-grip-lines {
   color: #fff;
 }
 
 
 
-.portfolioContainer .fa-star, .fa-grip-lines {
+.portfolioContainer .fa-star,
+.fa-grip-lines {
   color: black;
 }
 
@@ -114,10 +124,11 @@ h1 {
   align-items: center;
   margin: 3rem 0;
 }
-.portfolioContainer > h2 {
+
+.portfolioContainer>h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
-  }
+}
 
 .portfolio {
   color: #000;
@@ -127,7 +138,7 @@ h1 {
 
 }
 
-.imgContainer{
+.imgContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -137,7 +148,7 @@ h1 {
 }
 
 .img {
-width: 300px;
+  width: 300px;
   height: auto;
 }
 
@@ -147,14 +158,14 @@ width: 300px;
 
 
 
-.aboutSection{
-  background-color:#18bc9c;
-	text-align: center;
-  padding: 50px 25% ;
+.aboutSection {
+  background-color: #18bc9c;
+  text-align: center;
+  padding: 50px 25%;
   color: #fff;
 }
 
-.aboutSection > h2{
+.aboutSection>h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   font-weight: 900;
@@ -162,120 +173,192 @@ width: 300px;
 }
 
 
-p, .btnDownload{
+p,
+.btnDownload {
   font-family: 'Lato', sans-serif;
   color: white;
   text-align: left;
   font-size: 20px;
   font-weight: 400;
-  
-  
+
+
 }
 
 
 
-.twoColumns{
-  display:flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-content: center;
+.twoColumns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
   align-items: flex-start;
-  gap:30px;
+  gap: 30px;
 
 }
 
 
-.btnDownload{
-  background-color:#18bc9c;
-  border: 2px solid white ;
+.btnDownload {
+  background-color: #18bc9c;
+  border: 2px solid white;
   border-radius: 5px;
   padding: 8px;
   margin: 24px;
   text-align: center;
-  }
+}
 
-.download{
+.download {
   width: 12px;
 }
 
-.starIcon{
+.starIcon {
   width: 20px;
-  
 }
+
+
+
+
+.contactSection{
+  
+ height: min-content;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: nowrap;
+ justify-content: space-between;
+ align-items: center;
+ 
+}
+
+form{ 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: left;
+  margin-bottom: 50px;
+
+
+}
+
+button{
+  background-color: #18bc9c;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  text-align:  left;
+
+}
+
+label{
+  font-size: 24px;
+  color: gray;
+  margin: 16px;
+}
+input{
+  border: none ;
+  border-bottom: solid gray 1.5px;
+  width: 400px;
+}
+
+.contactSection>h2 {
+  margin-top: 50px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  align-items: center;
+}
+form{
+font-family: 'Lato', sans-serif;
+font-size: 1em;
+
+}
+
+
+
+
 
 
 footer {
   background-color: #2C3E4F;
   color: #fff;
   width: 100%;
-  height: 300px;
-	display: flex;
+  height: 200px;
+  display: flex;
+  font-size: 1em;
 
 }
-.footerThreeSections{
-  background-color: gray;
+
+.footerThreeSections {
   width: 100%;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
-.footerThreeSections > h2{
+
+.footerThreeSections>h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
   font-weight: 900;
-  
-
 }
 
-.partOfFooter{
-  background-color: green;
+
+.partOfFooter {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   font-weight: 900;
   display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: center;
-  
-  gap: 20px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
-.location{
-  background-color: palevioletred;
-  text-align: center;
-
-}
-.aroundWeb{
-  background-color: palevioletred;
+.location {
+  margin-top: 16px;
   text-align: center;
 
 }
 
-.aboutFreelancer{
-  background-color: palevioletred;
+.aroundWeb {
+  margin-top: 16px;
   text-align: center;
-
 
 }
 
+.aboutFreelancer {
+  margin-top: 16px;
+  text-align: center;
+}
 
-.copyright{
+blueText{
+  color: #18bc9c;
+}
+
+.copyright {
   width: 100%;
-  background-color: blueviolet;
   text-align: center;
-  }
-
-/* fa-facebook-f,
-fa-google-plus-g,
-fa-twitter,
-fa-linkedin-in, 
-fa-dribbble*/
-
-fa-facebook-f{
-  border: #000 solid 2px;
-  background-color: aqua;
+  font-family: 'Lato', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 8px;
 }
 
+.fa-facebook-f,
+.fa-google-plus-g,
+.fa-twitter,
+.fa-linkedin-in, 
+.fa-dribbble{
+  font-size: 18px;
+  border: rgb(255, 255, 255) solid 2px;
+  border-radius: 50%;
+  padding: 15px;
+}
+.fa-facebook-f{
+  padding-left: 18px;
+  padding-right: 18px;
+
+}
